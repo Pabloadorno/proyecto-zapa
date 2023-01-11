@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon.ico"/>
     <title>Calzados Alberto</title>
@@ -12,37 +13,48 @@
 </head>
 
     <body>        
-        <header>
+        <header class="header">
 
-            <nav>
+        <!-- comienza el header -->
+    
+            <!-- esta es la barra de navegacion -->
 
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./politicas.html">Políticas</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-
-            <section class="logo__header">
-            <img src="../img/logo-zapateria.png" width="80" height="80" alt="Logotipo de calzados alberto, zapatos mujer dama">
-            </section>
-
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Calzados Alberto</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">Nuestros productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./politicas.html">Nuestras políticas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contáctenos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
+
+        <!-- finaliza la barra de navegacion -->
         </header>
+        <!-- finaliza el header  -->
+
 
         <main>            
-            <h1>Calzados Alberto * 3 cuotas sin interés * envío gratis a todo el país</h1>
+            <h1>Calzados Alberto * 3 cuotas sin interés * Envío gratis a todo el país</h1>
         </main>
 
         <section class="contactanos">
