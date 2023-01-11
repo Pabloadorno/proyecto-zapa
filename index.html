@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+            <!-- index.html -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <title>Calzados Alberto</title>    
+</head>        
+
+    <body>        
+        <header class="header">
+
+        <!-- comienza el header -->
+
+        <!-- esta es la barra de navegacion -->
+
+        <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Calzados Alberto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+                <!-- etsa es la navbar vieja
+            <nav class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./section/productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="./section/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./section/politicas.html">Políticas</a>
+                </li>
+                <li>
+                    <a href="./section/contacto.html">Contacto</a>
+                </li>
+            </ul>        
+            </nav>
+             -->
+        <!-- finaliza la barra de navegacion -->
+        </header>
+        <!-- finaliza el header  -->
+
+        <!-- este es el main -->
+
+        <main class="main">            
+            <h1 class="banner">Calzados Alberto * 3 cuotas sin interés * Envío gratis a todo el país</h1>
+            <h2 class="subtitulo">Zapatos de mujer</h2>
+        </main>
+
+        <!-- este es el fin del main -->
+
+        <!-- hasta acá es el encabezado común a todos los html -->
+        
+        <!-- acá  comienza  el  contenido  único  para  inicio.html   -->
+
+        <!-- agrego fotos de categorias de productos -->
+
+        <section class="fotos-cuerpo">            
+            <div class="imagenes">
+                <h3>Zapatos de fiesta</h3>
+                <img class="img-categoria" src="./img/cat-fiesta.jpg" alt="zapatos de mujer para fiesta">
+                <h3>Sandalias</h3>
+                <img class="img-categoria" src="./img/cat-sandalias.jpg" alt="categoria sandalias">
+                <h3>Zuecos</h3>
+                <img class="img-categoria" src="./img/cat-zuecos.jpg" alt="categoria zuecos">
+                <h3>Más zapatos de fiesta</h3>
+                <img class="img-productos" src="./img/cat-fiestas.jpg" alt="zapatos de mujer pata otra fiesta">                
+                <h3>Calzado informal</h3>
+                <img class="img-productos" src="./img/cat-informal.jpg" alt="zapatos de mujer informales">                
+                <h3>Sandalias</h3>
+                <img class="img-productos" src="./img/cat-informales.jpg" alt="zapatos de mujer mas informales">
+                <h3>Zapatillas</h3>
+                <img class="img-productos" src="./img/cat-zapatillas.jpg" alt="zapatos de mujer zapatillas">                
+            </div>
+        </section>
+
+        <!-- desde aca para abajo es el footer comun a todos los html -->
+
+        <footer class="footer">
+            <section>
+                <h3>Seguinos en nuestras redes sociales</h3>
+                <h3> Enterate las últimas tendencias, modelos recién llegados y mucho más</h3>
+            </section>
+
+            <!-- imagenes de iconos de redes sociales -->
+
+            <section class="redes">                
+                <img class="icono" src="./img/rrss-facebook.png" alt="facebook">                
+                <img class="icono" src="./img/rrss-instagram.png" alt="instagram">                
+                <img class="icono"src="./img/rrss-tweeter.png" alt="tweeter">                
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    </body>
+</html>
