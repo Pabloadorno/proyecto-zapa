@@ -22,17 +22,15 @@ main{
     text-align: center;
 }
 
-.imagenes-index{
+.img-index{
     margin: 5px;
     padding: 5px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: 1fr;
     gap: 15px;
     justify-items:center;
 }
-
-
 
 .final{
     margin: 5px;
@@ -94,19 +92,28 @@ footer{
         "cuerpo"
         "final"
         "footer";
+        grid-template-columns: 1fr;
     }
 
-.img-cat{
+/* no hace bada
+.img-index{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 5px;
 }*/
 
-@media (min-width:480px){
-    body{
+
+#grilla { display: grid;}
+@media screen and (min-width: 768px) {
+
+    #grilla{
+        grid-template-columns: 2fr;
+    }
+
+    .envoltura{
         margin: 0;
-        grid-template-areas: 
+        grid-template-areas:
         "nav    nav"
         "main   main"
         "cuerpo cuerpo"
@@ -132,7 +139,7 @@ footer{
 
 .cuerpo-prod{
     margin: 15px 5px 15px 5px;
-    width: 150%;    
+    width: 150%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,8 +174,7 @@ p{
 
 /*estilo para contactanos.html*/
 
-.contactanos{    
+.contactanos{
     margin: 5px;
     padding: 10px;
-    
 }
