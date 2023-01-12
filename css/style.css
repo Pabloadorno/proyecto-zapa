@@ -3,6 +3,60 @@
     padding: 0;
 }
 
+/* doy estilo al html*/
+
+body{
+    background-color: bisque;
+}
+
+main{
+    margin: 7px;
+    padding: 7px;    
+}
+
+.fotos-cuerpo{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.imagenes{
+    display: grid;
+    grid-template-columns: 2fr;
+}/*
+
+/*@media screen and (min-width=480px){
+    
+}*/
+
+.pre-footer{
+    margin: 5px;
+    text-align: center;
+}
+
+.redes{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icono{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+/* media queries*/
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*estilo para nosotros.html*/
+
 .cuerpo-nosotros{
     margin: 15px;
     display: flex;
@@ -14,23 +68,13 @@ p{
     font-size: 20px;
 }
 
+/*estilo para productos.html*/
 
 
-.redes{
-    width: ;
+
+/*estilo para contactanos.html*/
+
+.contactanos{    
     margin: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.pre-footer{
-    margin: 5px;
-    text-align: center;
-}
-
-.icono{
-    margin: 15px;
-    height: 50px;
-    width: 50px;
+    padding: 10px;
 }

@@ -54,10 +54,56 @@
 
         <section class="contactanos">
             <p>Envíenos sus comentarios.</p>
-            <p>Queremos escucharte, o mas bien leerte. Te invitamos a dejarnos un comentario.</p>
-            <img src="../img/contactanos.png" alt="para asentar datos de contacto">            
+            <p>Queremos escucharte, o mas bien leerte. Te invitamos a dejarnos un comentario.</p>            
         </section>
-        
+        <main>
+            <h1>Contactanos</h1>
+
+            <!-- formulario -->
+
+            <div class="container-fluid formulario__contacto">
+                <div class="row g-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                </div>
+                <div class="row g-3 mt-2">
+                    <div class="col">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email" aria-label="Email">
+                    </div>
+                </div>
+                <div class="row g-3 mt-2">
+
+                    <!-- teléfono -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">+54</span>
+                        <input type="text" class="form-control" placeholder="número de teléfono"  aria-label="codigoDeArea"
+                            aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="sin 0 y sin 15" aria-label="telefono"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
+
+                <!-- mensaje del usuario -->
+                <div class="row mt-2">                
+                    <div class="input-group">
+                        <span class="input-group-text">Mensaje</span>
+                        <textarea class="form-control" placeholder="Estamos ansiosos por recibir tus comentarios, no omitas ningún detalle. Nos pondremos en contacto contigo pronto. Muchas gracias" aria-label="With textarea" rows="5"></textarea>
+                    </div>
+                </div>
+                <!-- botón de envío -->
+                <div class="row g-3 mt-2 align-items-center">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
         <section class="pre-footer">
             <div>
                 <h3>Seguinos en nuestras redes sociales</h3>                    
