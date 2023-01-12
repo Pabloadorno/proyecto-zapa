@@ -55,6 +55,10 @@ header{
     grid-template-columns: 1fr;
 }
 
+/*estilo para productos*/
+
+
+
 /*estilo para nosotros.html*/
 
 .cuerpo-nosotros{
@@ -65,16 +69,22 @@ header{
 
 p{
     text-align: justify;
-    font-size: 20px;
 }
 
 /*estilo para productos.html*/
 
+/*estilo para politicas.html*/
 
+.politicas{
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 
 /*estilo para contactanos.html*/
 
 .contactanos{    
     margin: 5px;
     padding: 10px;
+    
 }
