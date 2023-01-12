@@ -53,6 +53,7 @@ main{
 
 
 
+
     /* Declarar las 5 areas */
 
 
@@ -79,8 +80,10 @@ footer{
 
 
 
+
     /*definición de áreas*/
 
+@media only screen and (min-width: 480px){
 
 .envoltura{
     margin: 0;
@@ -94,39 +97,37 @@ footer{
         "footer";
         grid-template-columns: 1fr;
     }
+}
 
-/* no hace bada
 .img-index{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 5px;
-}*/
+    gap: 10px;
+}
 
-
-#grilla { display: grid;}
-@media screen and (min-width: 768px) {
-
-    #grilla{
-        grid-template-columns: 2fr;
-    }
+/*lo he intentado todo y no puedo hacer que funcione*/
+@media screen and (min-width: 768px){
 
     .envoltura{
         margin: 0;
+        display: grid;
         grid-template-areas:
         "nav    nav"
         "main   main"
         "cuerpo cuerpo"
         "final  cuerpo"
         "footer footer";
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-.imagenes-index{
+.img-index{
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 2fr;
-    gap: 5px;
+    gap: 10px;
+    
 }
 
 
