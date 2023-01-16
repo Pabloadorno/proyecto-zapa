@@ -26,7 +26,7 @@ main{
     margin: 5px;
     padding: 5px;
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 15px;
     justify-items:center;
@@ -53,8 +53,7 @@ main{
 
 
 
-
-    /* Declarar las 5 areas */
+    /* Declaración de areas */
 
 
 nav{
@@ -65,7 +64,7 @@ main{
     grid-area: main;
 }
 
-.imagenes-index{
+.img-index{
     grid-area: cuerpo;
 }
 
@@ -80,10 +79,8 @@ footer{
 
 
 
-
     /*definición de áreas*/
 
-@media only screen and (min-width: 480px){
 
 .envoltura{
     margin: 0;
@@ -95,52 +92,46 @@ footer{
         "cuerpo"
         "final"
         "footer";
-        grid-template-columns: 1fr;
     }
-}
 
-.img-index{
+.img-cat{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 10px;
-}
+    gap: 5px;
+}*/
 
-/*lo he intentado todo y no puedo hacer que funcione*/
-@media screen and (min-width: 768px){
-
-    .envoltura{
+/*@media (min-width:480px){
+    body{
         margin: 0;
-        display: grid;
+        
         grid-template-areas:
         "nav    nav"
         "main   main"
         "cuerpo cuerpo"
         "final  cuerpo"
         "footer footer";
-        grid-template-columns: 1fr 1fr;
     }
-}
+}*/
 
 .img-index{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 2fr;
     grid-template-rows: 2fr;
-    gap: 10px;
-    
+    gap: 5px;
 }
 
 
 
 
 
-/*estilos para los otros html*/
+/*aplico estilos a los otros html*/
 
 /*estilo para productos.html*/
 
 .cuerpo-prod{
     margin: 15px 5px 15px 5px;
-    width: 150%;
+    width: 150%;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +166,8 @@ p{
 
 /*estilo para contactanos.html*/
 
-.contactanos{
+.contactanos{    
     margin: 5px;
     padding: 10px;
+    
 }
