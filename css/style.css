@@ -25,11 +25,9 @@ main{
     justify-items:center;
 }
 
-
-
 .final{
     margin: 5px;
-    flex-direction: centre;
+    
     text-align: center;
 }
 
