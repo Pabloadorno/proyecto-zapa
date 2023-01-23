@@ -5,6 +5,10 @@
 
 /* doy estilo al html*/
 
+body{
+    background-color: rgb(238, 234, 227);
+}
+
 main{
     margin: 7px;
     padding: 7px;
@@ -136,16 +140,21 @@ footer{
 
 /*estilo para nosotros.html*/
 
-.cuerpo-nosotros{
+.cuerpo-nosotros{    
     margin: 15px;
-    display: flex;
-    flex-direction: column;
+    padding: 5px;
+    
 }
 
 p{
     text-align: justify;
 }
 
+.vista-zapateria{
+    margin: 5px;
+    width: 60%;
+    
+}
 
 /*estilo para politicas.html*/
 
