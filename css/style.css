@@ -13,6 +13,8 @@ main{
     margin: 7px;
     padding: 7px;
     text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 .img-index{
@@ -43,7 +45,11 @@ main{
     height: 50px;    
 }
 
-
+footer{
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
 
 
     /* Declaración de areas */
@@ -157,9 +163,12 @@ p{
 /*estilo para politicas.html*/
 
 .politicas{
-    margin: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;    
 }
+
+/*p{
+    font-weight: lighter;
+}*/
 
 
 /*estilo para contactanos.html*/
