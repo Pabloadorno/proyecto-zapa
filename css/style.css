@@ -5,17 +5,6 @@
 
 /* doy estilo al html*/
 
-body{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-header{
-    display: grid;
-    justify-content: center;
-}
-
 main{
     margin: 7px;
     padding: 7px;
@@ -32,6 +21,8 @@ main{
     justify-items:center;
 }
 
+
+
 .final{
     margin: 5px;
     flex-direction: centre;
@@ -42,7 +33,7 @@ main{
     margin: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;    
 }
 
 .icono{
