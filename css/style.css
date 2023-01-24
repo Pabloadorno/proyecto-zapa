@@ -43,9 +43,14 @@ footer{
 
 /*estilo para index.html*/
 
-main{
+main, .contacto{
     margin: 7px;
     padding: 7px;
+    text-align: left;
+    
+}
+
+.cuotas{
     text-align: center;
     font-size: large;
     font-weight: bold;
@@ -57,7 +62,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 15px;
+    gap: 25px;
     justify-items:center;
 }
 
