@@ -61,6 +61,7 @@ footer{
 /*aplico estilos a los otros html*/
 
 
+
 /*estilo para nosotros.html*/
 
 .cuerpo-nosotros{  
@@ -81,6 +82,7 @@ footer{
 }
 
 
+
 /*estilo para productos.html*/
 
 .cuerpo-prod{
@@ -97,12 +99,14 @@ footer{
 }
 
 
+
 /*estilo para politicas.html*/
 
 .politicas{
     margin: 20px;
     padding: 15px; 
 }
+
 
 
 /*estilo para contactanos.html*/
@@ -112,6 +116,7 @@ footer{
     padding: 10px;
     
 }
+
 
 
 /* Declaración de areas */
