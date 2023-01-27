@@ -1,12 +1,14 @@
-
 /*
+En este CSS:
 Estilos generales
 Estilo para index.html
 Estilo para nosotros.html
 Estilo para productos.html
 Estilo para politicas.html
 Estilo para contacto.html
-*/
+/* Declaración de areas 150 */
+/* Definición de áreas 174 */
+
 
 /* estilos generales*/
 
@@ -39,23 +41,21 @@ footer{
 }
 
 .icono{
-    margin: 15px;
-    height: 50px;    
+    margin: 32px;
+    height: 40%;
+    width: 40%;
+    transition: height 2s; width: 1s;    
 }
 
+.icono:hover{
+    height: 50%; width: 50%;
+}
 
 
 
 /*aplico estilo a los html*/
 
 /*estilo para index.html*/
-
-main, .contacto{
-    margin: 7px;
-    padding: 7px;
-    text-align: left;
-    
-}
 
 .cuotas{
     text-align: center;
@@ -72,7 +72,6 @@ main, .contacto{
     gap: 25px;
     justify-items:center;
 }
-
 
 /*estilo para nosotros.html*/
 
@@ -93,12 +92,13 @@ main, .contacto{
     margin: 3%;
 }
 
-
-
-
-
-
 /*estilo para productos.html*/
+
+main{
+    margin: 7px;
+    padding: 7px;
+    text-align: left;
+}
 
 .imagenes-prod{
     background-color: white;
@@ -117,8 +117,6 @@ main, .contacto{
     margin: 5%;
 }
 
-
-
 /*estilo para politicas.html*/
 
 .politicas{
@@ -132,18 +130,25 @@ p{
     font-weight: normal;
 }
 
-
 /*estilo para contactanos.html*/
 
 .contactanos{    
     margin: 5px;
-    padding: 10px;
-    
+    padding: 10px;   
+}
+
+.contacto{
+    margin: 7px;
+    padding: 7px;
+    text-align: left;
 }
 
 
+/*----------------------*/
+
 
 /* Declaración de areas */
+
 
 
 nav{
@@ -154,23 +159,17 @@ main{
     grid-area: main;
 }
 
-.img-index{
+.img-index, .productos, .nosotros, .politicas, .contactanos{
     grid-area: cuerpo;
-}
-
-.final{
-    grid-area: final;
 }
 
 footer{
     grid-area: footer;
 }
 
+/*definición de áreas*/
 
-
-
-    /*definición de áreas*/
-
+/*Area para 768px*/
 
 .envoltura{
     margin: 0;
