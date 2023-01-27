@@ -96,13 +96,22 @@ main, .contacto{
 
 /*estilo para productos.html*/
 
+.imagenes-prod{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .cuerpo-prod{
     margin: 2%;
     width: 90%;
     display: grid;
 }
 
-
+.recien{
+    margin: 5%;
+}
 
 
 
