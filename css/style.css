@@ -1,4 +1,13 @@
 
+/*
+Estilos generales
+Estilo para index.html
+Estilo para nosotros.html
+Estilo para productos.html
+Estilo para politicas.html
+Estilo para contacto.html
+*/
+
 /* estilos generales*/
 
 *{
@@ -8,6 +17,12 @@
 
 body{
     background-color: rgb(238, 234, 227);
+}
+
+footer{
+    margin: 5%;
+    border: 2px solid black;
+    border-radius: 2%;    
 }
 
 .final{
@@ -28,17 +43,6 @@ body{
     height: 50px;    
 }
 
-p{
-    margin: 2px;
-    text-align: justify;
-    font-weight: normal;
-}
-
-footer{
-    margin: 5%;
-    border: 2px solid black;
-    border-radius: 2%;    
-}
 
 
 
@@ -122,6 +126,11 @@ main, .contacto{
     padding: 15px; 
 }
 
+p{
+    margin: 2px;
+    text-align: justify;
+    font-weight: normal;
+}
 
 
 /*estilo para contactanos.html*/
