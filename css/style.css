@@ -1,14 +1,12 @@
 /*
 En este CSS:
 Estilos generales
-Estilo para index.html
-Estilo para nosotros.html
-Estilo para productos.html
-Estilo para politicas.html
-Estilo para contacto.html
-/* Declaración de areas 150 */
-/* Definición de áreas 174 */
-
+Estilos para index.html
+Estilos para nosotros.html
+Estilos para productos.html
+Estilos para politicas.html
+Estilos para contacto.html
+*/
 
 /* estilos generales*/
 
@@ -18,12 +16,11 @@ Estilo para contacto.html
 }
 
 body{
-    background-color: rgb(238, 234, 227);
+    background-color: rgb(238, 234, 227);    
 }
 
 footer{
-    margin: 5%;
-    border: 2px solid black;
+    margin: 5%;    
     border-radius: 2%;    
 }
 
@@ -57,6 +54,15 @@ footer{
 
 /*estilo para index.html*/
 
+.envoltura{
+    padding: 1%;
+    height: 100%    
+}
+
+.cuerpo-index{
+    height: 88%;
+}
+
 .cuotas{
     text-align: center;
     font-size: large;
@@ -64,12 +70,10 @@ footer{
 }
 
 .img-index{
+    height: 100%;
     margin: 5px;
     padding: 5px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 25px;
     justify-items:center;
 }
 
@@ -163,49 +167,47 @@ main{
     grid-area: cuerpo;
 }
 
+.img-cat{
+    grid-area: img1;
+}
+
+.img-prod{
+    grid-area: img2;
+}
+
 footer{
     grid-area: footer;
 }
 
+
+
 /*definición de áreas*/
 
-/*Area para 768px*/
-
 .envoltura{
-    margin: 0;
     display: grid;
-    gap: 5px;
     grid-template-areas:
         "nav"
         "main"
         "cuerpo"
-        "final"
         "footer";
-    }
-
-.img-cat{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 5px;
-}*/
-
-/*@media (min-width:480px){
-    body{
-        margin: 0;
-        
-        grid-template-areas:
-        "nav    nav"
-        "main   main"
-        "cuerpo cuerpo"
-        "final  cuerpo"
-        "footer footer";
-    }
-}*/
+}
 
 .img-index{
     display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
-    gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap:5px;    
 }
+
+@media (min-width:480px){
+    .envoltura{
+        width: 90%;
+        height: 90%;
+        grid-template-areas:
+        "nav"     "nav"
+        "cuerpo"  "cuerpo"
+        "img1"    "img2"
+        "footer"  "footer";
+    }
+}
+
