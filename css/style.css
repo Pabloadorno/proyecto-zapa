@@ -54,9 +54,13 @@ footer{
 
 /*estilo para index.html*/
 
-.envoltura{
+main{
     padding: 1%;
-    height: 100%    
+    margin: 1%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
 }
 
 .cuerpo-index{
@@ -75,11 +79,12 @@ footer{
     padding: 5px;
     display: grid;
     justify-items:center;
+    gap: 10px;
 }
 
 /*estilo para nosotros.html*/
 
-.cuerpo-nosotros{  
+.cuerpo-nosotros, .cuerpo-nos{  
     margin: 15px;
     padding: 5px;
     text-align: justify;
@@ -103,6 +108,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10%;
 }
 
 .cuerpo-prod{
@@ -177,23 +183,23 @@ footer{
 
 /*definición de áreas*/
 
-.envoltura{
+/*.body{
     display: grid;
     grid-template-areas:
         "nav"
         "main"
         "cuerpo"
         "footer";
-}
+}*/
 
-.img-index{
+/*.img-index{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap:5px;    
-}
+}*/
 
-@media (min-width:480px){
+/*@media (min-width:480px){
     .envoltura{
         width: 90%;
         height: 90%;
@@ -204,4 +210,5 @@ footer{
         "footer"  "footer";
     }
 }
+*/
 
