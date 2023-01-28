@@ -98,12 +98,6 @@ footer{
 
 /*estilo para productos.html*/
 
-main{
-    margin: 7px;
-    padding: 7px;
-    text-align: left;
-}
-
 .imagenes-prod{
     background-color: white;
     display: flex;
